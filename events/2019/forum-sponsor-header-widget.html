@@ -1,0 +1,11 @@
+<div id="event-banner"></div>
+<script>
+var listBanners = [
+`<a href="https://vhost.vn/" target="_blank"><img width="100%" src="https://nodejs.vn/assets/uploads/files/banner-vhost.png" alt="Hosting" /></a>`,
+`<a href="https://lowendviet.com" target="_blank"><img width="100%" src="https://nodejs.vn/assets/uploads/files/lowendviet.png" alt="lowendviet" /></a>`
+,
+`<a href="http://hostvn.net" target="_blank"><img max-height="193px" style="max-width:100%" src="https://nodejs.vn/assets/uploads/files/photo_2019-11-05_19-31-282.png" alt="Hosting" /></a>`
+];
+var id = Math.floor(Math.random() * 3);
+document.getElementById('event-banner').innerHTML = listBanners[id];
+</script>
